@@ -71,3 +71,23 @@ for n in range(99, 0, -1):  # for循环会对n进行自动计数
 # 2.初始化数组的工作，由range完成
 
 # python的解释机制，使得代码更为紧凑，但c/c++代码更为基础和面向底层
+
+# continue结束当前循环，跳到下一次
+# for x in seq
+#   if condition1:continue
+
+# while break的配对用法
+while True:
+    word = input('enter a word:')
+    if (not word): break
+    print('the word was', word)
+
+# 循环中的else  与for/while循环配对，表示不是通过break跳出的循环执行
+for n in range(99, 81, -1):
+    root = sqrt(n)
+    if (root == int(root)):
+        print(n)
+        break
+else:#与for/while循环配对，表示不是通过break跳出的循环执行
+    print("don't find!")
+
