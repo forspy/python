@@ -34,3 +34,7 @@ print('a' > 'A')
 
 # 逻辑运算符 and or not
 # 注：短路逻辑，如果A and B，A为false 则不判断B立刻返回false
+
+# python 的断言检查
+age = 10
+assert (age < 100)  # 断言，即不满足则发生断言失败，程序抛出异常
