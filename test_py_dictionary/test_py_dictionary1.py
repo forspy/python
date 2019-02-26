@@ -63,6 +63,7 @@ if request == 'a': key = 'address'
 
 if name in people: print('{}的{}是{}'.format(name, labels[request], people[name][key]))
 
+    
 #字典配合format
 d={'bob':123,'lucy':456}
 print('bob phone number is {}'.format(d['bob']))
