@@ -27,3 +27,4 @@ print(f"value is {num}")  # 使用f简写形式
 #二进制转换
 v=20
 print(f"20 的二进制 {v:b}")
+
