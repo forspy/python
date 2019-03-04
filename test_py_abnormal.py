@@ -52,7 +52,7 @@ except:
 # SyntaxWarning: 可疑的语法的警告
 # UserWarning: 用户代码生成的警告
 
-# 捕获异常
+# 捕获异常 c++使用try catch
 
 try:
     x = int(input('enter a number:'))
