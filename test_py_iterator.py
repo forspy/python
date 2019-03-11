@@ -69,3 +69,28 @@ print(it)
 print(list(it))  # 使用list将迭代器显式转换为列表
 
 print(list('hello'))  # 机制是一样的，list的显示机制是一样的
+
+# 对比c++中的迭代器
+# // vector的迭代器
+# vector < float >::iterator it; // 类似于元素指针
+# it = v.begin(); // 第一个元素开始的位置
+# it = v.end(); // 最后一个元素的下一个元素的位置
+#
+# // 把迭代器it当成指针来使用
+# it = v.begin();
+# while (it < v.end()) // 输出vector容器内的值
+#     {
+#         cout << * it << endl;
+#         it + +;
+#     }
+
+# 对于c++ map中的迭代器
+# map<int, double>::iterator m_it;//map 迭代器
+# mm1[3] = 4.0;
+# mm2["xiaoming"] = 1.68;
+# cout << mm1[3] <<'\t'<< mm2["xiaoming"] << endl;
+# m_it=mm1.find(3);//返回key=3所在的迭代器
+# if (m_it != mm1.end())//表示找到了
+# {
+# 	cout << "is exit" << endl;
+# }
