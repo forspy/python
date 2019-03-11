@@ -25,3 +25,4 @@ print([x * x for x in range(0, 10) if x % 3 == 0])  # 还可以通过在for循�
 g = (x * x for x in range(0, 10))  # 注意生成器推导使用圆括号
 for i in range(0, 10):
     print(next(g))  # 每一次出现一个，有点debug的意思
+
