@@ -61,3 +61,27 @@ r = Rectange()
 print(r.size)
 r.size = 150, 100
 print(r.width, r.height)
+
+
+# property深层解析
+class Rectangel2:
+    def __init__(self):
+        self.width = 0
+        self.height = 0
+
+    def __setattr__(self, key, value):  # __setattr__试图给属性赋值时自动调用
+        if key == 'size':
+            self.width, self.height = value
+        else:
+            self.__dict__[key] = value#__dict__是一个字典
+
+    def __getattr__(self, item):  # 在属性被访问时而对象没有这样的属性时自动调用
+        if item == 'size':
+            return self.width, self.height
+        else:
+            raise AttributeError()
+#效果和实现property的方法一致
+r2=Rectangel2()
+print(r2.size)
+r2.size = 1500, 1000
+print(r2.width, r2.height)
