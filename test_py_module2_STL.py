@@ -74,3 +74,4 @@ for line in fileinput.input(inplace=True):        #73
     line=line.rstrip()                            #74
     num=fileinput.lineno()                        #75
     print('{:<50}#{:2d}'.format(line,num))        #76
+
