@@ -9,4 +9,4 @@ s.connect((host,port))
 while True:
     arr = s.recv(1024)
     if arr:
-        print(arr)
+        print(arr.decode())
