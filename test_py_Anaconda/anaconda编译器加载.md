@@ -4,7 +4,9 @@
 
 新建工程---使用Existing interpreter
 
-![](./pic/pic1.png)
+使用绝对路径
+
+![pic2](pic2.png)
 
 测试代码为：
 
