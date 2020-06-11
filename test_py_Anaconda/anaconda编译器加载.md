@@ -7,6 +7,8 @@
 
 使用html标签
 
+<img src="pic2.png" width = "500" height = "300" alt="图片无法加载时显示的文字" align=center />
+
 <img src="pic2.png"/>
 
 使用绝对路径或者相对路径是加载不出来的
