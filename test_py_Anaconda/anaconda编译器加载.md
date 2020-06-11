@@ -4,7 +4,12 @@
 
 新建工程---使用Existing interpreter
 
-使用绝对路径
+
+使用html标签
+
+<img src="pic2.png"/>
+
+使用绝对路径或者相对路径是加载不出来的
 
 ![pic2](pic2.png)
 
