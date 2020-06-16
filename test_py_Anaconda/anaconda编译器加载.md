@@ -13,7 +13,7 @@
 
 使用绝对路径或者相对路径是加载不出来的
 
-![pic2](https://github.com/forspy/python/tree/master/test_py_Anaconda/pic2.png)
+![pic2](pic2.png)
 
 测试代码为：
 
