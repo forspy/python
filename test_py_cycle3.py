@@ -56,6 +56,20 @@ from math import sqrt
 scope={}
 exec('sqrt=81',scope)#使用exec实现了sqrt=81的赋值语句
 print(scope['sqrt'])
-
+##
+x = 10
+expr = """
+z = 30
+sum = x + y + z
+print(sum)
+"""
+def func():
+    y = 20
+    exec(expr)
+    exec(expr, {'x': 1, 'y': 2})
+    exec(expr, {'x': 1, 'y': 2}, {'y': 3, 'z': 4})
+    
+func()
+##可以实现脚本控制
 #eval实现计算器
 print(eval(input('请输入：')))
