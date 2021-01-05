@@ -28,4 +28,19 @@ print(str)
 str[1:4]=[]
 print(str)
 
+#创建空列表
+list1=[]
+list2=list(range(0,10))#0-9
+print(list1,list2)
+list2.append(10)
+print(list2)
 
+#通过拿到索引，拿值
+for i in range(len(list2)):
+    print(list2[i])
+#直接拿值
+for index in list2:
+    print(index)
+#去部分值
+for index in list2[0:5]:
+    print(index)

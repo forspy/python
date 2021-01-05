@@ -41,7 +41,10 @@ print('bob' in d)
 x = {}  # 创建一个空字典
 x[42] = 'bob'  # 这将创建一个字典{42: 'bob'}
 print(x)
-
+a1={1,3,4}
+a2={1,3,5}
+print(a1&a2)#字典取交集
+print(a1|a2)#取并集
 # 实例：一个简单的数据库
 people = {
     'bob': {
@@ -70,3 +73,4 @@ print('bob phone number is {}'.format(d['bob']))
 print('bob phone number is {bob}'.format_map(d))
 
 #print(people.items())
+

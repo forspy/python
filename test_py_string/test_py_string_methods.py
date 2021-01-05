@@ -34,3 +34,11 @@ print('hello world'.translate(table))#2.替换
 
 #判断字符是否满足特定条件
 #isanum isalpha isdigit islower。。。
+#字符串转化为列表list
+str='ab c'
+list1=list(str)
+print(list1)
+list2=str.split(' ')#分割
+print(list2)
+list3=list(str.replace(' ',''))#替换
+print(list3)

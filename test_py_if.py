@@ -38,3 +38,10 @@ print('a' > 'A')
 # python 的断言检查
 age = 10
 assert (age < 100)  # 断言，即不满足则发生断言失败，程序抛出异常
+
+
+while True:
+    name=input("请输入")
+
+#asd
+print('ss')

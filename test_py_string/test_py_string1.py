@@ -28,3 +28,18 @@ print(f"value is {num}")  # 使用f简写形式
 v=20
 print(f"20 的二进制 {v:b}")
 
+print('{1} {1} {0}'.format('hello','world'))
+
+#for i in range(0,3):
+#    name=input("请输入第%d个学生的姓名："%(i+1))
+i=0
+string_list=[]
+#int 为%d float为%f str为%s
+while True:
+    name=input("请输入第%d个学生的姓名"%(i+1))
+    i+=1
+    if name=='esc':
+        break
+    string_list.append(name)
+
+print(string_list)

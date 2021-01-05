@@ -79,3 +79,8 @@ print(m)
 n=['we','are','family','!']
 n.sort(key=len)#表示按照字符串长度进行排序
 print(n)
+a=[1,2,3,3,4,5,5,6]
+print(set(a))#set集合，去除同值
+n.append('!!!')
+print(n)
+
