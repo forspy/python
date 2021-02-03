@@ -17,7 +17,7 @@ mp.plot(x, sinx, linestyle='-.', linewidth=1, color='r', alpha=0.5,label=r'$y=si
 mp.xlim(0, 5)
 mp.ylim(-1, 1)
 # 刻度
-mp.xticks([-np.pi, -np.pi / 2, 0, np.pi / 2, np.pi],['-π',r'$-\frac{\pi}{2}$','0','π/2','π'])#LaTex排版语法
+mp.xticks([-np.pi, -np.pi / 2, 0, np.pi / 2, np.pi],['-π',r'$-\frac{\pi}{2}$','0','π/2','π'])#LaTex排版语法,设置x轴坐标输出格式
 mp.title('函数')
 mp.grid()#可以查询’python设置网格刻度线‘
 mp.legend()

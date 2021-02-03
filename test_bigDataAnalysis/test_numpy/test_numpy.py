@@ -7,10 +7,11 @@ import numpy as np
 ary = np.array([1, 2, 3, 4, 5, 6])
 print(type(ary))
 print(ary.shape)  # (6,)是一个元组
+#构建np类型的二维数组
 ary1 = np.array([[1, 2, 3, 4, 5, 6],
                  [6, 7, 8, 9, 10,11]])
 print(ary1)
-print(ary1.shape)#(2, 6)表示2行6列
+print(ary1.shape)#(2, 6)表示2行6列 获取二维数组的行列数
 print('1--------------')
 # list二维
 test_2D = [[1, 2, 3],

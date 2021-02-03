@@ -1,6 +1,8 @@
 #画等高线图
 import numpy as np
 import matplotlib.pyplot as mp
+
+import matplotlib as mpl
 # x:
 # 0 1 2
 # 0 1 2
@@ -30,4 +32,10 @@ mp.clabel(cntr,inline_spacing=1,fmt='%.2f',fontsize=10)#inline_spacing表示数�
 #mp.contourf(x,y,z,8,cmap='jet')#绘制等高线填充图jet映射表示从蓝-红的映射，数值小的是蓝，数值大的是红
 mp.imshow(z,cmap='jet',origin='lower')#热成像图,origin='lower'表示y轴向上为正
 mp.grid(linestyle=":")
+mp.colorbar()
+#定制化corlorbar
+# cmap = mpl.cm.cool
+# norm = mpl.colors.Normalize(vmin=5, vmax=10)
+# mp.colorbar(mpl.cm.ScalarMappable(norm=norm, cmap=cmap),
+#              cax=ax, orientation='vertical', label='Some Units')
 mp.show()

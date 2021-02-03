@@ -32,4 +32,5 @@ print(data2)
 print('-------')
 verticalData=np.vstack((data1,data2))
 print(verticalData)
-
+#更加简便的合并方式
+#A=np.column_stack((x,np.ones_like(x)))#一列列合并 与上面的效果一致np.row_stack 一行行合并

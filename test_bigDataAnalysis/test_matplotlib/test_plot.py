@@ -19,7 +19,7 @@
 # bar.add("蒸发量", columns, data2, mark_line=["average"], mark_point=["max", "min"])
 # #生成本地文件（默认为.html文件）
 # bar.render()
-qqqqqww
+
 
 from pyecharts.charts import Bar
 from pyecharts import options as opts

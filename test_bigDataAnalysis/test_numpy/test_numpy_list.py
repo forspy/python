@@ -21,6 +21,7 @@ print('---------')
 a = np.arange(1, 28).reshape(3, 3, 3)
 print(a[0, 0:2, 0:3])  # 第0页的，2行3列
 # np的数组掩码操作,类似于matlab里面的find()函数
+#数组的查找与定位
 a = np.arange(3) # [0 1 2]
 mask = [True, True, False]
 maskBool = a < 2

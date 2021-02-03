@@ -10,6 +10,7 @@ monthX = np.arange(1, 13)*2
 apples = np.array([10, 11, 12, 30, 50, 22, 19, 51, 53, 66, 90, 100])
 oranges = np.array([12, 34, 33, 20, 50, 11, 89, 30, 21, 45, 50,70])
 mp.bar(monthX-0.4, apples,0.8, color='dodgerblue', label='Apple')#减去0.2的目的是为了与下一个柱状图分开,0.8表示宽度(默认0.8)
+#若不想分开，可不对monthX做处理
 #添加柱状图上的数字
 for m,n in zip(monthX,apples):
     mp.text(m-0.8,n,n,va='bottom')

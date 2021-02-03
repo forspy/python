@@ -11,7 +11,7 @@ y=np.random.normal(60,10,n)
 
 mp.figure('scatter',facecolor='lightgray')#窗口标题，背景颜色
 mp.title('scatter')
-mp.scatter(x,y,label='Person',c=y,cmap='jet')
+mp.scatter(x,y,label='Person',c=y,cmap='jet')#c=y,点的颜色 cmap='jet' 按照暖高冷低
 mp.grid()
 mp.xlabel('身高',fontsize=10)
 mp.ylabel('体重',fontsize=10)
